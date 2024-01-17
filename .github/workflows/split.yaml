@@ -62,4 +62,4 @@ jobs:
           force: true
           tags: true
           directory: fonts
-          branch: ${{ steps.down.outputs.tag_name }}
+          branch: refs/tags/${{ steps.down.outputs.tag_name }}
